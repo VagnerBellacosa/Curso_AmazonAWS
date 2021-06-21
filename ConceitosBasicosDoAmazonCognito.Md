@@ -1,42 +1,41 @@
-# Conceitos b·sicos do Amazon Cognito
+# Conceitos b√°sicos do Amazon Cognito
 
-Esta seÁ„o descreve as principais tarefas do Amazon Cognito e por onde comeÁar. Para uma vis„o geral do Amazon Cognito, consulteO que È o Amazon Cognito?.
+Esta se√ß√£o descreve as principais tarefas do Amazon Cognito e por onde come√ßar. Para uma vis√£o geral do Amazon Cognito, consulte: O que √© o Amazon Cognito?.
 
-Os dois componentes principais do Amazon Cognito s„o os grupos de usu·rios e os grupos de identidades. Os grupos de usu·rios s„o diretÛrios de usu·rios que fornecem opÁıes de cadastro e login para os usu·rios do seu aplicativo Web e mÛvel. Os grupos de identidade fornecem credenciais da AWS para conceder aos usu·rios acesso a outros serviÁos da AWS. VocÍ pode usar grupos de usu·rios e grupos de identidades separadamente ou em conjunto.
+Os dois componentes principais do Amazon Cognito s√£o os grupos de usu√°rios e os grupos de identidades. Os grupos de usu√°rios s√£o diret√≥rios de usu√°rios que fornecem op√ß√£es de cadastro e login para os usu√°rios do seu aplicativo Web e m√≥vel. Os grupos de identidade fornecem credenciais da AWS para conceder aos usu√°rios acesso a outros servi√ßos da AWS. Voce pode usar grupos de usu√°rios e grupos de identidades separadamente ou em conjunto.
 
-## Tarefas principais e por onde comeÁar
+## Tarefas principais e por onde come√ßar
 
+### Adi√ß√£o de cadastro e login com um grupo de usu√°rios
 
-### AdiÁ„o de cadastro e login com um grupo de usu·rios
+1. Criar um diret√≥rio de usu√°rio com um grupo de usu√°rios.
+2. Adicionar um aplicativo para habilitar a interface do usu√°rio hospedada.
+3. Adicionar login social a um grupo de usu√°rios.
+4. Adicionar login por meio de provedores de identidade com base em SAML (IdPs) a um grupo de usu√°rios.
+5. Adicionar login por meio de IdPs OpenID Connect (OIDC) a um grupo de usu√°rios.
+6. Instalar um SDK de grupo de usu√°rios.
+7. Personalizar as p√°ginas de login e cadastro da interface do usu√°rio da web hospedada integrada.
+8. Configurar recursos de seguran√ßa do grupo de usu√°rios.
+9. Personalizar fluxos de trabalho do grupo de usu√°rios com triggers do Lambda.
+10. Coletar dados e segmentar campanhas com a an√°lise do Amazon Pinpoint.
 
-1. Criar um diretÛrio de usu·rio com um grupo de usu·rios.
-2. Adicionar um aplicativo para habilitar a interface do usu·rio hospedada.
-3. Adicionar login social a um grupo de usu·rios.
-4. Adicionar login por meio de provedores de identidade com base em SAML (IdPs) a um grupo de usu·rios.
-5. Adicionar login por meio de IdPs OpenID Connect (OIDC) a um grupo de usu·rios.
-6. Instalar um SDK de grupo de usu·rios.
-7. Personalizar as p·ginas de login e cadastro da interface do usu·rio da web hospedada integrada.
-8. Configurar recursos de seguranÁa do grupo de usu·rios.
-9. Personalizar fluxos de trabalho do grupo de usu·rios com triggers do Lambda.
-10. Coletar dados e segmentar campanhas com a an·lise do Amazon Pinpoint.
+### Gerenciamento de usu√°rios em um grupo de usu√°rios
 
-### Gerenciamento de usu·rios em um grupo de usu·rios
-
-- Cadastrar e confirmar contas de usu·rios.
-- Criar contas de usu·rio como administrador.
-- Gerenciar e pesquisar contas de usu·rio.
-- Adicionar grupos a um grupo de usu·rios.
-- Importar usu·rios para um grupo de usu·rios.
+- Cadastrar e confirmar contas de usu√°rios.
+- Criar contas de usu√°rio como administrador.
+- Gerenciar e pesquisar contas de usu√°rio.
+- Adicionar grupos a um grupo de usu√°rios.
+- Importar usu√°rios para um grupo de usu√°rios.
 
 ### Acesso a recursos
 
-### Cen·rios comuns do Amazon Cognito:
+### Cen√°rios comuns do Amazon Cognito:
 
-- Autenticar com um grupo de usu·rios.
-- Acessar recursos de back-end por meio de um grupo de usu·rios.
-- Acessar API Gateway e Lambda por meio de um grupo de usu·rios.
-- Acessar os serviÁos da AWS com um grupo de usu·rios e um grupo de identidades.
-- Acessar os serviÁos da AWS por meio de terceiros e de um grupo de identidades.
-- Acessar recursos do AWS AppSync por meio de um grupo de usu·rios ou de um grupo de identidades.
+- Autenticar com um grupo de usu√°rios.
+- Acessar recursos de back-end por meio de um grupo de usu√°rios.
+- Acessar API Gateway e Lambda por meio de um grupo de usu√°rios.
+- Acessar os servi√ßos da AWS com um grupo de usu√°rios e um grupo de identidades.
+- Acessar os servi√ßos da AWS por meio de terceiros e de um grupo de identidades.
+- Acessar recursos do AWS AppSync por meio de um grupo de usu√°rios ou de um grupo de identidades.
 
 [Artigo original](https://docs.aws.amazon.com/pt_br/cognito/latest/developerguide/cognito-getting-started.html)
